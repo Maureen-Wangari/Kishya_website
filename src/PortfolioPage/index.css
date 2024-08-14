@@ -1,0 +1,505 @@
+img{
+    height: 30vh;
+    width: 16vw;
+    border-radius: 50%;
+    text-align: center;
+}
+body{
+    background-color: #323E6C
+    ;
+}
+figcaption{
+    color: rgb(228, 231, 214);
+    padding: 5px;
+}
+#Team_pictures{
+    display: flex;
+    gap: 5%;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    margin-top: 22px;
+    color: rgb(247, 248, 247);
+}
+b{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+#fanny{
+    margin-top: 8%;
+    text-align: center;
+    border: solid ;
+    border-color: rgb(203, 213, 213);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
+    border: 1px;
+    height: 390px;
+}
+#yiamat{
+    margin-top: 8%;
+    text-align: center;
+    border: solid ;
+    border-color: rgb(203, 213, 213);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
+    border: 1px;
+}
+#yvonne{
+    margin-top: 8%;
+    text-align: center;
+    border: solid ;
+    border-color: rgb(203, 213, 213);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
+    border: 1px;
+}
+#rehema{
+    text-align: center;
+    border: solid ;
+    border-color: rgb(203, 213, 213);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
+    border: 1px;
+}
+#jemimah{
+    text-align: center;
+    border: solid ;
+    border-color: rgb(203, 213, 213);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
+    border: 1px;
+}
+a{
+    text-decoration: none;
+    color: rgb(49, 235, 8);
+    cursor: pointer;
+}
+a:hover{
+    color: yellow;
+}
+@media screen and (min-width:481px) and (max-width:564px){
+    img{
+        height: 30vh;
+        width: 40vw;
+        border-radius: 50%;
+    }
+    .team{
+        /* background-color: rgb(22, 28, 61); */
+        width: 100%;
+    }
+    figcaption{
+        color: rgb(228, 231, 214);
+        font-size: 15px;
+    }
+    #Team_pictures{
+        display: grid;
+        gap: 1%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        color: rgb(34, 179, 159);
+        font-size: 24px;
+    }
+    b{
+        color: rgb(34, 179, 159);
+    }
+    p{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        font-size: 70%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #cta{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 13%;
+        font-size: 70%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /* #fanny{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    #Rehema{
+        margin-top: 10%;
+    }
+    #yiamat{
+        margin-top: 10%;
+        margin-bottom: 40%;
+    }
+    #yvonne{
+        margin-top: 10%;
+    } */
+}
+@media screen and (min-width:280px) and (max-width:480px) {
+    img{
+        height: 15vh;
+        width: 35vw;
+        border-radius: 70%;
+        margin-top: 4%;
+    }
+    .team{
+        background-color: rgb(22, 28, 61);
+        width: 100%;
+    }
+    figcaption{
+        color: rgb(228, 231, 214);
+        font-size: 13px;
+    }
+    #Team_pictures{
+        display: grid;
+        gap: 1%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        color: rgb(34, 179, 159);
+        font-size: 25px;
+    }
+    b{
+        color: rgb(34, 179, 159);
+    }
+    p{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 1px;
+        font-size: 10px;
+        margin-right: 1px;
+    }
+    #cta{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 13%;
+        font-size: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /* #fanny{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #rehema{
+        margin-top: 1%;
+    }
+    #yiamat{
+        margin-top: 20%;
+        margin-bottom: 50%;
+    }
+    #yvonne{
+        margin-top: 20%;
+    } */
+}
+@media screen and (min-width:565px) and (max-width:768px){
+    img{
+        height: 30vh;
+        width: 40vw;
+    }
+    .team{
+        background-color: rgb(22, 28, 61);
+        width: 100%;
+    }
+    figcaption{
+        color: rgb(228, 231, 214);
+        font-size: 25px;
+    }
+    #Team_pictures{
+        display: grid;
+        gap: 1%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        color: rgb(34, 179, 159);
+        font-size: 30px;
+    }
+    b{
+        color: rgb(34, 179, 159);
+    }
+    p{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 2%;
+        margin-bottom: 10%;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #cta{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 10%;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /* #fanny{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #Rehema{
+        margin-top: 10%;
+    }
+    #yiamat{
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+    #yvonne{
+        margin-top: 10%;
+    } */
+}
+@media screen and (min-width:769px) and (max-width:1020px){
+    img{
+        height: 24vh;
+        width: 35vw;
+    }
+    .team{
+        background-color: rgb(22, 28, 61);
+        width: 100%;
+    }
+    figcaption{
+        color: rgb(228, 231, 214);
+        font-size: 25px;
+    }
+    #Team_pictures{
+        display: grid;
+        gap: 1%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        color: rgb(34, 179, 159);
+        font-size: 44px;
+    }
+    b{
+        color: rgb(34, 179, 159);
+    }
+    p{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 3%;
+        margin-bottom: 10%;
+        font-size: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #cta{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /* #fanny{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #Rehema{
+        margin-top: 10%;
+    }
+    #yiamat{
+        margin-top: 10%;
+    }
+    #yvonne{
+        margin-top: 10%;
+    } */
+}
+@media screen and (min-width:1030px) and (max-width: 1220px) {
+        img{
+        height: 42vh;
+        width: 26vw;
+    }
+    .team{
+        background-color: rgb(22, 28, 61);
+        width: 100%;
+    }
+    figcaption{
+        color: rgb(228, 231, 214);
+        font-size: 25px;
+    }
+    #Team_pictures{
+        display: grid;
+        gap: 1%;
+        justify-content: space-around;
+    }
+    h1{
+        text-align: center;
+        color: rgb(34, 179, 159);
+        font-size: 38px;
+    }
+    b{
+        color: rgb(34, 179, 159);
+    }
+    p{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 2%;
+        margin-bottom: 10%;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #cta{
+        color: aliceblue;
+        text-align: center;
+        margin: 1%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #fanny{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #Rehema{
+        margin-top: 10%;
+    }
+    #yiamat{
+        margin-top: 10%;
+    }
+    #yvonne{
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width:1221px) and (max-width: 1280px) {
+    img{
+        height: 25vh;
+        width: 16vw;
+        border-radius: 50%;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(22, 28, 61);
+    }
+    figcaption{
+        color: rgb(228, 231, 214);
+    }
+    #Team_pictures{
+        display: flex;
+        gap: 5%;
+        justify-content: space-around;
+    }
+    h1{
+        text-align: center;
+        margin-top: 2px;
+        color: rgb(34, 179, 159);
+    }
+    b{
+        color: rgb(34, 179, 159);
+    }
+    p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #cte{
+        margin: 0px;
+        margin-top: -60px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #fanny{
+        margin-top: 8%;
+        text-align: center;
+    }
+    #yiamat{
+        margin-top: 8%;
+        text-align: center;
+    }
+    #yvonne{
+        margin-top: 8%;
+        text-align: center;
+    }
+    #rehema{
+        text-align: center;
+    }
+    #jemimah{
+        text-align: center;
+    }
+}
+@media screen and (min-width:1024px) and (max-width: 1029px) {
+    img{
+        height: 25vh;
+        width: 16vw;
+        border-radius: 50%;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(22, 28, 61);
+    }
+    figcaption{
+        color: rgb(228, 231, 214);
+        font-size: 18px;
+    }
+    #Team_pictures{
+        display: flex;
+        gap: 5%;
+        justify-content: space-around;
+    }
+    h1{
+        text-align: center;
+        margin-top: 2px;
+        color: rgb(34, 179, 159);
+    }
+    b{
+        color: rgb(34, 179, 159);
+    }
+    p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 21px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    #cte{
+        margin: 0px;
+        margin-top: -60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    #fanny{
+        margin-top: 8%;
+        text-align: center;
+    }
+    #yiamat{
+        margin-top: 8%;
+        text-align: center;
+    }
+    #yvonne{
+        margin-top: 8%;
+        text-align: center;
+    }
+    #rehema{
+        text-align: center;
+    }
+    #jemimah{
+        text-align: center;
+    }
+}

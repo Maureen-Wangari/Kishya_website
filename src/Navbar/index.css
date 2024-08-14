@@ -1,0 +1,283 @@
+.navbar {
+    display: flex;
+    gap: 17%;
+    font-size: 25px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(to right, rgb(36, 13, 54), rgb(43, 3, 116));
+    height: 95px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+  .logo img{
+    width: 120%;
+    height: 80px;
+    margin-top: 14%;
+    margin-left: 33%;
+  }
+  .nav-item:hover,
+  .modal-content li a:hover {
+    color: rgb(48, 69, 208);
+  }
+  .nav-item {
+    margin: 5 12px; 
+    padding: 5px 0; 
+  }
+  .navigations {
+    display: flex;
+    gap: 2%;
+    list-style-type: none;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    left: 5px;
+    color: white;
+    /* right: 50%; */
+    gap: 75%;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav a:hover, .modal-content li a:hover {
+    text-decoration: underline;
+  }
+  .hamburger-icon {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .modal {
+    /* display: none; */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.808);
+  }
+  .modal-content {
+    list-style: none;
+    margin: 2% auto;
+    padding: 20px;
+    color: white;
+    width: 30%;
+  }
+.subscribe{
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    position: relative;
+    left: 650px;
+}
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      gap: 50%;
+      font-size: 20px;
+      height: 80px;
+    }
+
+    .modal {
+        /* display: none; */
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.752);
+      }
+      .modal-content li{
+        list-style: none;
+        margin: 5% auto;
+        margin-left: -70px;
+        padding: 10px;
+        gap: 2%;
+        color: rgb(82, 68, 228);
+        width: 30%;
+      }
+      .modal-content li a {
+        color: rgb(82, 68, 228);
+        font-size: 25px;
+      }
+      
+      .modal-content ul li a:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+  
+    .navigations {
+      font-size: 16px;
+      top: 14px;
+      left: 550px;
+      gap: 50%;
+    }
+    .close-button{
+        margin-left: 103%;
+        margin-top: -19px;
+        width: 20%;
+        height: 40px;
+    }
+  
+    .subscribe {
+      width: 100px;
+      height: 40px;
+      font-size: 16px;
+      left: 650px;
+    }
+    .logo img{
+        width: 150%;
+        height: 40px;
+        margin-top: 16%;
+        margin-left: 25px;
+      }
+      .hamburger-icon {
+        display: block;
+        margin-left: 73%;
+      }
+
+  }
+  
+  /* Mobile Breakpoint (max-width: 480px) */
+  @media (max-width: 480px) {
+    .navbar {
+      gap: 5%;
+      font-size: 10px;
+      height: 60px;
+    }
+  
+    .navigations {
+      display: none;
+    }
+  
+    .hamburger-icon {
+      display: block;
+    }
+  
+    .modal-content {
+      width: 80%;
+    }
+  
+    .subscribe {
+      width: 80px;
+      height: 30px;
+      font-size: 14px;
+      left: 300px;
+    }
+  
+    body {
+      overflow-x: hidden;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .navbar {
+      gap: 30%;
+      font-size: 18px;
+      height: 70px;
+    }
+  
+    .modal-content {
+      width: 50%;
+      font-size: 30px;
+    }
+  
+    .modal-content li a {
+      font-size: 30px;
+    }
+  
+    .navigations {
+      font-size: 14px;
+      top: 12px;
+      left: -80px;
+      gap: 15%;
+    }
+  
+    .close-button {
+      margin-left: 95%;
+      margin-top: -5px;
+    }
+  
+    .subscribe {
+      width: 90px;
+      height: 35px;
+      font-size: 14px;
+      left: -100px;
+      top: -15px;
+    }
+  
+    .logo img {
+      width: 350%;
+      height: 55px;
+      margin-top: 18%;
+      margin-left: 20px;
+    }
+  
+    .hamburger-icon {
+      display: block;
+      margin-left: 68%;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1300px) {
+    .navbar {
+      gap: 30%;
+      font-size: 18px;
+      height: 100px;
+    }
+  
+    .modal-content {
+      width: 50%;
+      font-size: 30px;
+    }
+  
+    .modal-content li a {
+      font-size: 30px;
+    }
+  
+    .navigations {
+    font-size: 40%;
+      top: 42px;
+      left: -80px;
+      gap: 15%;
+    }
+  
+    .close-button {
+      margin-left: 95%;
+      margin-top: -5px;
+    }
+  
+    .subscribe {
+      width: 110px;
+      height: 45px;
+      font-size: 20px;
+      left: -100px;
+      top: -5px;
+    }
+  
+    .logo img {
+      width: 150%;
+      height: 65px;
+      margin-top: 18%;
+      margin-left: 20px;
+    }
+  
+    .hamburger-icon {
+      display: block;
+      margin-left: 68%;
+    }
+  }

@@ -1,0 +1,78 @@
+#about {
+    background-image: linear-gradient(to right, rgb(52, 40, 129), rgb(49, 66, 103));
+    margin-top: 6%;
+    margin-bottom: 5%;
+  }
+  /* .mic{
+    width: 100%;
+  } */
+  .mic {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-radius: 30px; /* Optional: Adds rounded corners */
+    overflow: hidden; /* Ensures the content doesn't overflow the rounded corners */
+  }
+  .youtube{
+    height: 5%;
+     width: 5%;
+  }
+  .header{
+      /* color:white; */
+      color: white;
+      margin-top: -2%;
+      text-align: center;
+      font-size: 60px;
+  }
+  .micp{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-image: linear-gradient(to right, rgb(52, 40, 129), rgb(133, 30, 133)); */
+  }
+  #y{
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 30px;
+    color: white;
+  }
+  .txts{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 30px;
+    display: flex;
+    gap: 5%;
+  }
+  #get{
+    display: flex;
+    font-size: larger;
+    margin-left: 15%;
+    /* margin-top: -3%; */
+  }
+  #tx{
+      /* color: white; */
+      color:white;
+      margin-left: 5%;
+      font-size: 30px;
+      text-align: left;
+  }
+
+  .listen{
+    margin-left: 15%;
+    width: 10%;
+    margin-bottom: 5%;
+    height: 35%;
+  }
+
+
+  button{
+    color: rgb(30, 141, 18);
+    font-size: 40px;
+    margin-left: 20%;
+    width: 20%;
+    height: 70%;
+    margin-bottom: 3%;
+  }
+
+ 
