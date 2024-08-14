@@ -11,12 +11,13 @@ const App = () => {
   return (
     <Router>
       <Navbar />
+      <Landing/>
       <Routes>
       <Route path='/loom' element= {<LoomVideos/>}></Route>
       <Route path='/blogs' element= {<WritingSection/>}></Route>
       <Route path='/portfolio' element= {<Portfolios/>}></Route>
       <Route path='/podcast' element= {<Podcast/>}></Route>
-      <Route path='/home' element= {<Landing/>}></Route>
+
       </Routes>A
     </Router>
   );
