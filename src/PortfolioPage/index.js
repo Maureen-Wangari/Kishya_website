@@ -36,7 +36,7 @@ const Portfolio = ()=>{
             <img src='/Images/Racheal.jpg' alt=''/>
             <figcaption><b>Rachael A.</b></figcaption>
             <figcaption>Software Developer</figcaption>
-            <figcaption><a href='https://github.com/Aber-Racheal/aberPortfolio.git'>View Portfolio</a></figcaption>
+            <figcaption><a href='https://latest-portfolio-virid-seven.vercel.app/'>View Portfolio</a></figcaption>
             </fig>
             </div>
             <div id='yiamat'>
