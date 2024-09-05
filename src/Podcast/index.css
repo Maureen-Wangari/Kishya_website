@@ -3,7 +3,7 @@
   background-size: left;
   background-position: center;
   height: 45.8vh;
-  margin-top: 2%;
+  margin-top: 5%;
   display: flex;
   justify-content: left;
   gap: 5%;
@@ -13,10 +13,10 @@
 
 }
 .podMic{
-  height:950px;
+  height:750px;
   width: 105%;
-  margin-left: -10%;
-  margin-top: 2%;
+  margin-left: 9%;
+  margin-top: -3%;
   border-radius: 25%;
 }
 
@@ -40,9 +40,10 @@
   width: 80%;
   max-width: 800px;
   position: relative;
-  top: 30%;
+  top: 11%;
+  left: 5%;
   z-index: 1;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 5);
 }
 
 .michead{

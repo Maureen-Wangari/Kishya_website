@@ -41,7 +41,9 @@ const portfolios = [
     skills: ['React', 'Node.js', 'AWS', 'Docker', 'CI/CD'],
     education: ['Diploma in IT. AKiraChix, codeHive class of 2024'],
     projects: [
-      'Developed a project to enhance parental involvement in online learning'
+      'Developed a project to enhance parental involvement in online learning',
+      'A book find website',
+      'A web calendar'
     ]
   },
   {
@@ -54,7 +56,6 @@ const portfolios = [
       'Developed a Econtrust mobile App'
     ]
   }
-  // Add more portfolio entries with profile pictures...
 ];
 
 const PortfolioSection = ({ portfolio }) => (

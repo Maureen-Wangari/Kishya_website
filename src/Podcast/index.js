@@ -18,7 +18,7 @@ const Podcast = () => {
   return (
     <div>
             <header className="headerportfolio">
-        <h1>Behind The Mic: Kishya Podcast</h1>
+        <h1>Behind The Mic: Kishya</h1>
         <p>The Pulse Of Progress</p>
       </header>
     
