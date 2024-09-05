@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll'; // Import ScrollLink from react-scroll
 import './index.css';
 
 const Navbar = () => {
@@ -35,41 +35,51 @@ const Navbar = () => {
       {!isMobileScreen && (
         <nav>
           <div className="navigations">
-            <Link
-              to="/home"
+            <ScrollLink
+              to="home" // Corresponding section ID
+              smooth={true}
+              duration={500}
               className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}
               onClick={() => handleNavigationClick('Home')}
             >
               Home
-            </Link>
-            <Link
-              to="/portfolio"
+            </ScrollLink>
+            <ScrollLink
+              to="portfolio" // Corresponding section ID
+              smooth={true}
+              duration={500}
               className={`nav-item ${activeNavItem === 'Portfolio' ? 'active' : ''} pointer`}
               onClick={() => handleNavigationClick('Portfolio')}
             >
               Portfolio
-            </Link>
-            <Link
-              to="/loom"
+            </ScrollLink>
+            <ScrollLink
+              to="loom" // Corresponding section ID
+              smooth={true}
+              duration={500}
               className={`nav-item ${activeNavItem === 'Loom' ? 'active' : ''} pointer`}
               onClick={() => handleNavigationClick('Loom')}
             >
-              Loom
-            </Link>
-            <Link
-              to="/podcast"
+              Videos
+            </ScrollLink>
+            <ScrollLink
+              to="podcast" // Corresponding section ID
+              smooth={true}
+              duration={500}
               className={`nav-item ${activeNavItem === 'Podcast' ? 'active' : ''} pointer`}
               onClick={() => handleNavigationClick('Podcast')}
             >
               Podcast
-            </Link>
-            <Link
-              to="/blogs"
+            </ScrollLink>
+            <ScrollLink
+              to="blogs" // Corresponding section ID
+              smooth={true}
+              duration={500}
               className={`nav-item ${activeNavItem === 'Blogs' ? 'active' : ''} pointer`}
               onClick={() => handleNavigationClick('Blogs')}
             >
               Blogs
-            </Link>
+            </ScrollLink>
           </div>
         </nav>
       )}
@@ -94,49 +104,59 @@ const Navbar = () => {
             </span>
             <ul>
               <li>
-                <Link
-                  to="/"
+                <ScrollLink
+                  to="home" // Corresponding section ID
+                  smooth={true}
+                  duration={500}
                   className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}
                   onClick={() => handleNavigationClick('Home')}
                 >
                   Home
-                </Link>
+                </ScrollLink>
               </li>
               <li>
-                <Link
-                  to="/portfolio"
+                <ScrollLink
+                  to="portfolio" // Corresponding section ID
+                  smooth={true}
+                  duration={500}
                   className={`nav-item ${activeNavItem === 'Portfolio' ? 'active' : ''} pointer`}
                   onClick={() => handleNavigationClick('Portfolio')}
                 >
                   Portfolio
-                </Link>
+                </ScrollLink>
               </li>
               <li>
-                <Link
-                  to="/loom"
+                <ScrollLink
+                  to="loom" // Corresponding section ID
+                  smooth={true}
+                  duration={500}
                   className={`nav-item ${activeNavItem === 'Loom' ? 'active' : ''} pointer`}
                   onClick={() => handleNavigationClick('Loom')}
                 >
-                  Loom
-                </Link>
+                  Videos
+                </ScrollLink>
               </li>
               <li>
-                <Link
-                  to="/podcast"
+                <ScrollLink
+                  to="podcast" // Corresponding section ID
+                  smooth={true}
+                  duration={500}
                   className={`nav-item ${activeNavItem === 'Podcast' ? 'active' : ''} pointer`}
                   onClick={() => handleNavigationClick('Podcast')}
                 >
                   Podcast
-                </Link>
+                </ScrollLink>
               </li>
               <li>
-                <Link
-                  to="/blogs"
+                <ScrollLink
+                  to="blogs" // Corresponding section ID
+                  smooth={true}
+                  duration={500}
                   className={`nav-item ${activeNavItem === 'Blogs' ? 'active' : ''} pointer`}
                   onClick={() => handleNavigationClick('Blogs')}
                 >
                   Blogs
-                </Link>
+                </ScrollLink>
               </li>
             </ul>
           </div>
