@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link as ScrollLink } from 'react-scroll'; // Import ScrollLink from react-scroll
+import { Link as ScrollLink } from 'react-scroll';
 import './index.css';
 
 const Navbar = () => {
@@ -30,13 +30,13 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="/imgNavbarLoom/ChicasLogo.png" alt="" />
+        <img src="/imgNavbarLoom/ChicasLogo.png" alt="Logo" />
       </div>
       {!isMobileScreen && (
         <nav>
           <div className="navigations">
             <ScrollLink
-              to="home" // Corresponding section ID
+              to="home"
               smooth={true}
               duration={500}
               className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}
@@ -45,7 +45,7 @@ const Navbar = () => {
               Home
             </ScrollLink>
             <ScrollLink
-              to="portfolio" // Corresponding section ID
+              to="portfolio"
               smooth={true}
               duration={500}
               className={`nav-item ${activeNavItem === 'Portfolio' ? 'active' : ''} pointer`}
@@ -54,16 +54,16 @@ const Navbar = () => {
               Portfolio
             </ScrollLink>
             <ScrollLink
-              to="loom" // Corresponding section ID
+              to="videos"
               smooth={true}
               duration={500}
-              className={`nav-item ${activeNavItem === 'Loom' ? 'active' : ''} pointer`}
-              onClick={() => handleNavigationClick('Loom')}
+              className={`nav-item ${activeNavItem === 'Videos' ? 'active' : ''} pointer`}
+              onClick={() => handleNavigationClick('Videos')}
             >
               Videos
             </ScrollLink>
             <ScrollLink
-              to="podcast" // Corresponding section ID
+              to="podcast"
               smooth={true}
               duration={500}
               className={`nav-item ${activeNavItem === 'Podcast' ? 'active' : ''} pointer`}
@@ -72,7 +72,7 @@ const Navbar = () => {
               Podcast
             </ScrollLink>
             <ScrollLink
-              to="blogs" // Corresponding section ID
+              to="blogs"
               smooth={true}
               duration={500}
               className={`nav-item ${activeNavItem === 'Blogs' ? 'active' : ''} pointer`}
@@ -105,7 +105,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <ScrollLink
-                  to="home" // Corresponding section ID
+                  to="home"
                   smooth={true}
                   duration={500}
                   className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}
@@ -116,7 +116,7 @@ const Navbar = () => {
               </li>
               <li>
                 <ScrollLink
-                  to="portfolio" // Corresponding section ID
+                  to="portfolio"
                   smooth={true}
                   duration={500}
                   className={`nav-item ${activeNavItem === 'Portfolio' ? 'active' : ''} pointer`}
@@ -127,18 +127,18 @@ const Navbar = () => {
               </li>
               <li>
                 <ScrollLink
-                  to="loom" // Corresponding section ID
+                  to="videos"
                   smooth={true}
                   duration={500}
-                  className={`nav-item ${activeNavItem === 'Loom' ? 'active' : ''} pointer`}
-                  onClick={() => handleNavigationClick('Loom')}
+                  className={`nav-item ${activeNavItem === 'Videos' ? 'active' : ''} pointer`}
+                  onClick={() => handleNavigationClick('Videos')}
                 >
                   Videos
                 </ScrollLink>
               </li>
               <li>
                 <ScrollLink
-                  to="podcast" // Corresponding section ID
+                  to="podcast"
                   smooth={true}
                   duration={500}
                   className={`nav-item ${activeNavItem === 'Podcast' ? 'active' : ''} pointer`}
@@ -149,7 +149,7 @@ const Navbar = () => {
               </li>
               <li>
                 <ScrollLink
-                  to="blogs" // Corresponding section ID
+                  to="blogs"
                   smooth={true}
                   duration={500}
                   className={`nav-item ${activeNavItem === 'Blogs' ? 'active' : ''} pointer`}

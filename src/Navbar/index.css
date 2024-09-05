@@ -28,6 +28,7 @@
   .nav-item {
     margin: 5 12px; 
     padding: 5px 0; 
+    cursor: pointer;
   }
   .navigations {
     display: flex;
