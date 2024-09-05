@@ -16,6 +16,12 @@ const Podcast = () => {
   };
 
   return (
+    <div>
+            <header className="headerportfolio">
+        <h1>Behind The Mic: Kishya Podcast</h1>
+        <p>The Pulse Of Progress</p>
+      </header>
+    
     <div className="podcast-container">
          <div>
         <img src='Images/podcastimage.jpeg' alt='' className='podMic'/>
@@ -50,6 +56,7 @@ const Podcast = () => {
           Play EP 1 <span>→</span></a>
       </div>
     
+    </div>
     </div>
   );
 };

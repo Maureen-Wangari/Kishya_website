@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+
 const portfolios = [
   {
     name: 'Faith Wachira',
@@ -55,49 +56,51 @@ const portfolios = [
   }
   // Add more portfolio entries with profile pictures...
 ];
+
 const PortfolioSection = ({ portfolio }) => (
-    <div className='main'>
-  <article className="portfolio">
-    <header className="portfolio-header">
-      <div className="profile-container">
-        <div className="profile-picture" style={{ backgroundImage: `url(${portfolio.profilePic})` }}></div>
-        <div className="gradient-border"></div>
-      </div>
-      <h2>{portfolio.name}</h2>
-    </header>
-    <section className="portfolio-content">
-      <div className="about">
-        <h3>About</h3>
-        <p>{portfolio.about}</p>
-      </div>
-      <div className="skills">
-        <h3>Skills</h3>
-        <ul>
-          {portfolio.skills.map(skill => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-      </div>
-      <div className="education">
-        <h3>Education</h3>
-        <ul>
-          {portfolio.education.map(edu => (
-            <li key={edu}>{edu}</li>
-          ))}
-        </ul>
-      </div>
-      <div className="projects">
-        <h3>Projects</h3>
-        <ul>
-          {portfolio.projects.map(project => (
-            <li key={project}>{project}</li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  </article>
+  <div className='main'>
+    <article className="portfolio">
+      <header className="portfolio-header">
+        <div className="profile-container">
+          <div className="profile-picture" style={{ backgroundImage: `url(${portfolio.profilePic})` }}></div>
+          <div className="gradient-border"></div>
+        </div>
+        <h2>{portfolio.name}</h2>
+      </header>
+      <section className="portfolio-content">
+        <div className="about">
+          <h3>About</h3>
+          <p>{portfolio.about}</p>
+        </div>
+        <div className="skills">
+          <h3>Skills</h3>
+          <ul>
+            {portfolio.skills.map(skill => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="education">
+          <h3>Education</h3>
+          <ul>
+            {portfolio.education.map(edu => (
+              <li key={edu}>{edu}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="projects">
+          <h3>Projects</h3>
+          <ul>
+            {portfolio.projects.map(project => (
+              <li key={project}>{project}</li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    </article>
   </div>
 );
+
 const AllPortfolios = () => {
   return (
     <div className="all-portfolios">
@@ -106,10 +109,13 @@ const AllPortfolios = () => {
         <p>Explore detailed profiles of industry experts and their achievements.</p>
       </header>
       {portfolios.map((portfolio, index) => (
-        <PortfolioSection key={index} portfolio={portfolio} />
+        <React.Fragment key={index}>
+          <PortfolioSection portfolio={portfolio} />
+          {index < portfolios.length - 1 && <div className="separator"></div>}
+        </React.Fragment>
       ))}
     </div>
-    
   );
 };
+
 export default AllPortfolios;

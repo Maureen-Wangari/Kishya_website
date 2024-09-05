@@ -5,16 +5,25 @@
     background: #F4F4F9;
     color: #333;
   }
+
+  .separator {
+    border-bottom: 8px solid #2a896a;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
   /* Header Styles */
   .headerportfolio {
     /* background: linear-gradient(to right, #6A11CB, #2575FC); */
-    background: #DC8B6F;
+    background: #ad6884;
     color: #fff;
     margin: 5%;
-    padding: 60px 40px;
+    font-size: 25px;
+    padding: 5px 40px;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 15px rgba(12, 218, 84, 0.2);
+    margin-top: 10px;
     margin-bottom: 50px;
     animation: fadeIn 1s ease-out;
   }
@@ -41,7 +50,7 @@
   }
   .portfolio:hover {
     transform: translateY(-15px);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 32px rgb(8, 112, 53);
   }
   .portfolio-header {
     display: flex;
@@ -99,6 +108,7 @@
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: black;
+    font-size: 25px;
   }
   h3 {
     margin-top: 0;

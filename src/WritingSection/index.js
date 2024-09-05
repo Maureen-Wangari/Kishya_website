@@ -3,6 +3,10 @@ import './index.css'
 const WritingSection=()=>{
 return(
    <div className="body">
+      <header className="headerportfolio">
+        <h1>Trevor Noah: Born A Crime</h1>
+        <p>The journey of an innocent young boy through apartheid trying to figure out his identity</p>
+      </header>
        <div className="blogHeading" >
          <h1 className="topHeading"> <a href="#cards">Born a Crime and its relevance to current social, political, and economic issues</a></h1>
          <p className="blogIntro">
