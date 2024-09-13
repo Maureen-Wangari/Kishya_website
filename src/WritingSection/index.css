@@ -1,562 +1,137 @@
-.body {
-  margin-top: 20%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.trevBook{
-  margin-top: 15%;
-  font-size: 30px;
-  margin-left: 25%;
-}
-
-.blogHeading {
-  margin-top: 5px;
-  background-image: url('/public/Images/blog.jpg');
-  opacity: 0.9;
-  height: 1000px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 30px;
-}
-
-.topHeading {
-  font-size: 70px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  color: rgb(4, 95, 68);
-  text-align: left;
-  padding: 3%;
-  padding-right: 50%;
-  padding-left: 5%;
-}
-
-.blogIntro {
-  font-size: 50px;
-  color: rgb(0, 0, 0);
-  margin: 2%;
-  font-style: italic;
-  text-align: left;
-  padding-left: 5%;
-}
-
-h2 {
-  font-size: 40px;
-  text-align: left;
-  color: rgb(4, 95, 68);
-}
-
-.paragraph {
-  color: black;
-  font-size: 20px;
-  text-align: justify;
-}
-
-#conc {
-  color: rgb(4, 95, 68);
-}
-
-.cards {
-  display: flex;
-  justify-content: space-around;
-  gap: 40px;
-}
-
-.cardOne, .cardTwo {
-  background-image: url('/public/Images/identity.jpg');
-  height: 500px;
-  width: 500px;
-  border-radius: 50px;
-  box-shadow: rgb(4, 95, 68) 5px 5px 10px 3px;
+.writing-section {
+  /* max-width: 1024px; */
+  margin: 5%;
   margin-top: 10%;
+  padding: 1rem;
 }
 
-.cardContent {
-  color: rgb(255, 255, 255);
-  margin: 10%;
-  line-height: 30px;
-  font-size: 25px;
-  font-style: oblique;
+.section-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-left: 40%;
 }
 
-#cardHeading {
-  padding: 30px;
-  color: rgb(4, 95, 68);
+.coaching-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.coaching-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.coaching-card-image {
+  width: 130%;
+  height: 600px;
+  gap: 3%;
+  object-fit: cover;
+}
+
+.coaching-card-content {
+  padding: 1rem;
+}
+
+.coaching-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.explore-more-btn {
+  background-color: #48bb78;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+
+.chevron-right {
+  margin-left: 0.5rem;
+}
+
+.book-header {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-a {
+.book-title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.book-subtitle {
+  font-size: 1.25rem;
+}
+
+.book-intro {
+  margin-bottom: 2rem;
+}
+
+.book-intro-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.gradient-card {
+  background: linear-gradient(to right, #60a5fa, #a78bfa);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.gradient-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.content-section {
+  margin-bottom: 2rem;
+}
+
+.content-section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.conclusion-section, .references-section {
+  margin-bottom: 2rem;
+}
+
+.conclusion-title, .references-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.reference-link {
+  color: #3182ce;
   text-decoration: none;
-  color: #ffffff;
 }
 
-@media only screen and (max-width: 480px) {
-  .body {
-    top: 0;
-    margin: 5%;
-    margin-right: 0%;
-  }
-  
-  .blogHeading {
-    background-image: url('/public/Images/identity.jpg');
-    height: 790px;
-    width: 95%;
-  }
-  
-  .topHeading {
-    font-size: 30px;
-    color: #FFC907;
-    padding-top: 10%;
-  }
-  
-  .blogIntro {
-    font-size: 20px;
-  }
-  
-  h2 {
-    font-size: 30px;
-    color: white;
-    margin-top: 5%;
-  }
-  
-  p {
-    font-size: 20px;
-    color: #FFC907;
-  }
-  
-  .cards {
-    flex-direction: column;
-  }
-  
-  .cardOne, .cardTwo {
-    height: 430px;
-    width: 95%;
-  }
-  
-  .cardContent {
-    font-size: 15px;
-    margin: 15%;
-  }
-  
-  #cardHeading {
-    color: #FFC907;
-  }
-  
-  #conc {
-    font-size: 15px;
-    margin-right: 5%;
-  }
-  
-  .paragraph {
-    font-size: 15px;
-    text-align: left;
-    margin-left: 2%;
+.reference-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .coaching-grid, .card-grid {
+    grid-template-columns: 1fr;
   }
 }
-@media only screen and (max-width: 480px){
-.body{
-     top: 0;
-     margin: 5% ;
-     margin-right: 0%;
-  }
-  .blogHeading{
-  background-image:url('/public/Images/identity.jpg');
-     height: 790px;
-     background-repeat: no-repeat;
-     background-size: cover;
-     width: 95%;
-     border-radius: 30px;
-     margin-right: 10%;
-  }
-  .topHeading{
-     font-size: 30px;
-     font-family: Arial, Helvetica, sans-serif;
-     font-style: normal;
-     color: #FFC907;
-     text-align: left;
-     padding: 3%;
-     padding-right: 20%;
-     padding-left:5% ;
-     padding-top: 10%;
-  }
-  .blogIntro{
-     font-size: 20px;
-     color: rgb(0, 0, 0);
-     margin: 2%;
-     font-style: italic;
-     text-align: left;
-     padding-left:5% ;
-  }
-  h2{
-     font-size: 30px;
-     text-align: left;
-     color:white;
-     margin-top: 5%;
-  }
-  p{
-     font-size: 20px;
-     text-align: justify;
-     color: #FFC907;
-  }
-  #exploringImage{
-    height: 500px;
-    width: 500px;
-    border-radius: 50px;
-    box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
-    margin-top: 10%;
- }
- #exploringContent{
-    font-size: 25px;
-    font-style: oblique;
- }
- /* cARDS */
- .cards{
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-    flex-direction: column;
- }
- .cardOne{
-   background-image:url('/public/Images/identity.jpg');
-  height: 430px;
-    width: 95%;
-    border-radius: 50px;
-    box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
-    margin-top: 10%;
- }
- .cardTwo{
- background-image:url('/public/Images/identity.jpg');
-  height: 430px;
-  width: 95%;
-    border-radius: 50px;
-    box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
-    margin-top: 10%;
- }
- .cardContent{
-    color: white;
-    margin: 15%;
-    font-size: 15px;
-    text-align: left;
-    font-style: oblique;
-    line-height: 25px;
- }
- #cardHeading{
- padding: 25px;
- color: #FFC907;
- text-align: center;
- }
- a{
-    text-decoration: none;
-    color: #FFC907;
- }
- #conc{
-  font-size: 15px;
-  margin-right: 5%;
- }
- .paragraph{
-    font-size: 15px;
-    text-align: left;
-    margin-left: 2%;
- }
- #ref{
-  font-size: 13px;
- }
-}
-@media only screen and (min-width: 481px) and (max-width: 768px){
-.body{
-  top: 0;
-  margin: 5% ;
-}
-.blogHeading{
-  /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg'); */
-  height: 1200px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 30px;
-  width: 580px;
-  margin-left: 5%;
-}
-.topHeading{
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  color: #FFC907;
-  text-align: left;
-  padding: 3%;
-  padding-right: 50%;
-  padding-left:5% ;
-}
-.blogIntro{
-  font-size: 30px;
-  color: white;
-  margin: 2%;
-  font-style: italic;
-  text-align: left;
-  padding-left:5% ;
-}
-h2{
-  font-size: 40px;
-  text-align: left;
-  color:rgb(0, 0, 0);
-  margin-left: 10%;
-}
-p{
-  font-size: 20px;
-  text-align: justify;
-  color: #FFC907;
-}
-#exploringImage{
- height: 500px;
- width: 500px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
-}
-#exploringContent{
- font-size: 25px;
- font-style: oblique;
-}
-/* cARDS */
-.cards{
- display: flex;
- flex-direction: column;
- justify-content: space-around;
- gap: 40px;
- margin-right: 15%;
- margin-left: 5%;
-}
-.cardOne{
- /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg'); */
- height: 500px;
- width: 550px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
-}
-.cardTwo{
- /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg'); */
-height: 500px;
- width: 550px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
- margin-right: 5%;
- margin-left: 2%;
-}
-.cardContent{
- color: white;
- margin: 10%;
- font-size: 30px;
- font-style: oblique;
-}
-#cardHeading{
-padding: 30px;
-color: #FFC907;
-text-align: center;
-}
-a{
- text-decoration: none;
- color: #FFC907;
-}
-#conc{
-  margin-left: 5%;
-}
-.paragraph{
- font-size: 25px;
- margin-left: 5%;
- padding-left: 5%;
- padding-right: 2%;
-}
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px){
-.body{
-  top: 0;
-  margin: 5% ;
-}
-.blogHeading{
- /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg'); */
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 30px;
-}
-.topHeading{
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  color: #FFC907;
-  text-align: left;
-  padding: 3%;
-  padding-right: 10%;
-  padding-left:5% ;
-}
-.blogIntro{
-  font-size: 30px;
-  color: white;
-  line-height: 35px;
-  margin: 2%;
-  font-style: italic;
-  text-align: left;
-  padding-left:5% ;
-}
-h2{
-  font-size: 40px;
-  text-align: left;
-  color:white;
-}
-p{
-  font-size: 20px;
-  text-align: justify;
-  color: #FFC907;
-}
-#exploringImage{
- height: 500px;
- width: 500px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
-}
-#exploringContent{
- font-size: 25px;
- font-style: oblique;
-}
-/* cARDS */
-.cards{
- display: flex;
- justify-content: space-around;
- gap: 40px;
- flex-direction: column;
-}
-.cardOne{
- /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg'); */
- height: 500px;
- width: 800px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
-}
-.cardTwo{
- /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg'); */
-height: 500px;
- width: 800px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
-}
-.cardContent{
- color: white;
- margin: 10%;
- line-height: 40px;
- font-size: 35px;
- font-style: oblique;
-}
-#cardHeading{
-padding: 50px;
-color: #FFC907;
-text-align: center;
-}
-a{
- text-decoration: none;
- color: #FFC907;
-}
-.paragraph{
- font-size: 25px;
-}
-}
-@media only screen and (min-width: 1025px) and (max-width: 1280px){
-.body{
-  top: 0;
-  margin: 5% ;
-}
-.blogHeading{
- /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg'); */
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 30px;
-}
-.topHeading{
-  font-size: 70px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  color: #FFC907;
-  text-align: left;
-  padding: 3%;
-  padding-right: 20%;
-  padding-left:5% ;
-}
-.blogIntro{
-  font-size: 30px;
-  color: white;
-  margin: 2%;
-  font-style: italic;
-  text-align: left;
-  padding-left:5% ;
-}
-h2{
-  font-size: 40px;
-  text-align: left;
-  color:white;
-}
-p{
-  font-size: 20px;
-  text-align: justify;
-  color: #FFC907;
-}
-#exploringImage{
- height: 500px;
- width: 500px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
-}
-#exploringContent{
- font-size: 25px;
- font-style: oblique;
-}
-/* cARDS */
-.cards{
- display: flex;
- justify-content: space-around;
- gap: 40px;
-}
-.cardOne{
- /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg'); */
-height: 350px;
- width: 500px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
-}
-.cardTwo{
- /* background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg'); */
-height: 350px;
- width: 500px;
- border-radius: 50px;
- box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
- margin-top: 10%;
-}
-.cardContent{
- color: white;
- margin: 10%;
- line-height: 20px;
- font-size: 15px;
- font-style: oblique;
-}
-#cardHeading{
-padding: 30px;
-color: #FFC907;
-text-align: center;
-font-size: 20px;
-}
-a{
- text-decoration: none;
- color: #FFC907;
-}
-.paragraph{
- font-size: 25px;
-}
-}
-@media only screen and (min-width: 1281px){}

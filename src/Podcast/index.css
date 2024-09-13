@@ -2,22 +2,22 @@
   /* background-image: url('https://fiverr-res.cloudinary.com/videos/t_main1,q_auto,f_auto/fnuptirojdt1xlrq8j3m/create-your-podcast-logo-design-or-cover-artwork-design.png'); */
   background-size: left;
   background-position: center;
-  height: 45.8vh;
-  margin-top: 5%;
+  height: 60.8vh;
+  margin-top: 1%;
   display: flex;
   justify-content: left;
-  gap: 5%;
+  gap: 3%;
   padding: 2rem;
   font-family: Arial, sans-serif;
   position: relative;
 
 }
 .podMic{
-  height:750px;
+  height:650px;
   width: 105%;
-  margin-left: 9%;
-  margin-top: -3%;
-  border-radius: 25%;
+  margin-left: 2%;
+  margin-top: 3%;
+  border-radius: 20%;
 }
 
 .podcast-container::before {
@@ -40,7 +40,7 @@
   width: 80%;
   max-width: 800px;
   position: relative;
-  top: 11%;
+  top: 8%;
   left: 5%;
   z-index: 1;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 5);

@@ -12,17 +12,10 @@ const App = () => {
     <Router>
       <Navbar />
       <Landing/>
-      <LoomVideos/>
       <Portfolios/>
+      <LoomVideos/>
       <Podcast/>
       <WritingSection/>
-      {/* <Routes>
-      <Route path='/' element= {<Landing/>}></Route>
-      <Route path='/loom' element= {<LoomVideos/>}></Route>
-      <Route path='/blogs' element= {<WritingSection/>}></Route>
-      <Route path='/portfolio' element= {<Portfolios/>}></Route>
-      <Route path='/podcast' element= {<Podcast/>}></Route>
-      </Routes> */}
     </Router>
   );
 };

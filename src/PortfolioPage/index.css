@@ -46,7 +46,7 @@
     padding: 30px;
     transition: transform 0.4s ease, box-shadow 0.4s ease, opacity 0.4s ease;
     opacity: 0;
-    animation: fadeInUp 1s forwards;
+    animation: fadeInUp 0s forwards;
   }
   .portfolio:hover {
     transform: translateY(-15px);
