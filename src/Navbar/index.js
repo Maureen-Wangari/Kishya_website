@@ -29,8 +29,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="logo">
-        <img src="/imgNavbarLoom/ChicasLogo.png" alt="Logo" />
+      <div className="logoimg">
+        <img className="logoimg" src="/imgNavbarLoom/ChicasLogo.png" alt="Logo" />
       </div>
       {!isMobileScreen && (
         <nav>

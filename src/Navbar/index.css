@@ -1,12 +1,12 @@
 .navbar {
     display: flex;
-    gap: 12%;
+    gap: 5%;
     font-size: 15px;
     display: flex;
     position: fixed;
     top: 0;
     background-image: linear-gradient(to right, rgb(13, 53, 54), rgb(3, 116, 110));
-    height: 100px;
+    height: 60px;
     width: 100%;
     box-shadow: 0 2px 5px rgba(245, 225, 3, 0.1);
     z-index: 999;
@@ -15,19 +15,19 @@
     scroll-behavior: smooth;
   }
   
-  .logo img{
-    width: 120%;
-    height: 80px;
-    margin-top: 14%;
-    margin-left: 33%;
+  .logoimg{
+    width: 50px;
+    height: 50px;
+    margin-top: 0.4%;
+    margin-left: 4%; 
   }
   .nav-item:hover,
   .modal-content li a:hover {
     color: rgb(255, 208, 0);
   }
   .nav-item {
-    margin: 5 12px; 
-    padding: 5px 0; 
+    margin: 0 1px; 
+    font-size: 18px; 
     cursor: pointer;
   }
   .navigations {
@@ -36,16 +36,17 @@
     list-style-type: none;
     font-size: 25px;
     position: relative;
-    top: 40px;
-    left: 5px;
+    top: 20px;
+    left: 200px;
     color: white;
     /* right: 50%; */
-    gap: 75%;
+    gap: 35%;
   }
 
   nav a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
   }
   
   nav a:hover, .modal-content li a:hover {
@@ -144,7 +145,7 @@ body{
       font-size: 16px;
       left: 650px;
     }
-    .logo img{
+    .logoimg{
         width: 150%;
         height: 40px;
         margin-top: 16%;
@@ -225,7 +226,7 @@ body{
       top: -15px;
     }
   
-    .logo img {
+    .logoimg {
       width: 350%;
       height: 55px;
       margin-top: 18%;
@@ -238,7 +239,7 @@ body{
     }
   }
 
-  @media (min-width: 1200px) and (max-width: 1300px) {
+  /* @media (min-width: 1200px) and (max-width: 1300px) {
     .navbar {
       gap: 30%;
       font-size: 18px;
@@ -274,7 +275,7 @@ body{
       top: -5px;
     }
   
-    .logo img {
+    .logoimg {
       width: 150%;
       height: 65px;
       margin-top: 18%;
@@ -285,4 +286,4 @@ body{
       display: block;
       margin-left: 68%;
     }
-  }
+  } */

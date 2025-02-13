@@ -3,6 +3,18 @@ import './index.css';
 
 const portfolios = [
   {
+    name: 'Maureen Njeri',
+    profilePic: 'Images/Nje.jpg',
+    about: 'Maureen, a passionate healthcare innovator, firmly believes that the convergence of technology and systems thinking holds the guidelines to addressing the complex challenges facing the medical industry. Inspired by the remarkable progress in fields like telemedicine, data analytics, and artificial intelligence, Maureen is convinced that these advancements can be harnessed to bridge the gaps in healthcare delivery, ensuring that quality care reaches underserved communities and vulnerable populations. Leveraging her expertise in systems thinking and her deep passion for healthcare innovation, Maureen is committed to working alongside a diverse array of stakeholders to co-create solutions that can revolutionize the way healthcare is delivered and experienced, ultimately building a future where healthcare is more accessible, equitable, and effective for all.',
+    skills: ['React', 'Node.js', 'AWS', 'Docker', 'CI/CD'],
+    education: ['Diploma in IT. AKiraChix, codeHive class of 2024'],
+    projects: [
+      'Developed a project to enhance parental involvement in online learning',
+      'A book find website',
+      'A web calendar'
+    ]
+  },
+  {
     name: 'Faith Wachira',
     profilePic: 'Images/Faith.jpg',
     about: 'The forest ecosystem is home to a wide variety of forests which plays a crucial role in ecological balance. This fragile ecosystem is facing numerous challenges such as loss of forest cover threatening their delicate balance and overall sustainability. Faith is determined to leverage AI-powered analytics to assess changes in forest health by detecting the forest areas that are at risk, enabling focused conservation and restoration activities thus protecting our mountain ecosystem for future generations.',
@@ -34,18 +46,7 @@ const portfolios = [
       'Developed a music web'
     ]
   },
-  {
-    name: 'Maureen Njeri',
-    profilePic: 'Images/Nje.jpg',
-    about: 'Maureen, a passionate healthcare innovator, firmly believes that the convergence of technology and systems thinking holds the guidelines to addressing the complex challenges facing the medical industry. Inspired by the remarkable progress in fields like telemedicine, data analytics, and artificial intelligence, Maureen is convinced that these advancements can be harnessed to bridge the gaps in healthcare delivery, ensuring that quality care reaches underserved communities and vulnerable populations. Leveraging her expertise in systems thinking and her deep passion for healthcare innovation, Maureen is committed to working alongside a diverse array of stakeholders to co-create solutions that can revolutionize the way healthcare is delivered and experienced, ultimately building a future where healthcare is more accessible, equitable, and effective for all.',
-    skills: ['React', 'Node.js', 'AWS', 'Docker', 'CI/CD'],
-    education: ['Diploma in IT. AKiraChix, codeHive class of 2024'],
-    projects: [
-      'Developed a project to enhance parental involvement in online learning',
-      'A book find website',
-      'A web calendar'
-    ]
-  },
+ 
   {
     name: 'Mary Vivian Muthoni',
     profilePic: 'Images/Vee.jpg',

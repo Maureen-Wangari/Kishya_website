@@ -17,14 +17,14 @@
     /* background: linear-gradient(to right, #6A11CB, #2575FC); */
     background: #ad6884;
     color: #fff;
-    margin: 5%;
-    font-size: 25px;
-    padding: 5px 40px;
+    margin: 25%;
+    font-size: 15px;
+    padding: 10px 20px;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(12, 218, 84, 0.2);
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     animation: fadeIn 1s ease-out;
   }
   .header h1 {
@@ -88,14 +88,15 @@
     animation: gradientShift 5s ease infinite;
   }
   /* Header and Content Styles */
-  .portfolio-header h2 {
+  .portfolio-header h3 {
     font-size: 2.5em;
     color: #333;
     margin: 0;
     transition: color 0.3s ease;
   }
-  .portfolio-header h2:hover {
+  .portfolio-header h3:hover {
     color: #2575FC;
+    font-size: 1.0em;
   }
   .portfolio-content {
     display: grid;
@@ -108,7 +109,7 @@
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: black;
-    font-size: 25px;
+    font-size: 20px;
   }
   h3 {
     margin-top: 0;

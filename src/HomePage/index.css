@@ -13,15 +13,16 @@
     background-color: rgba(245, 245, 245, 0.643);
     border-radius: 35px;
     position: absolute;
-    top: 43%;
+    top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: black;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 4px rgba(7, 236, 152, 0.5);
     z-index: 1;
-    height: 30%;
-    padding: 3%;
+    height: 63%;
+    width: 80%;
+    padding: 1px;
     font-size: 45px;
   }
   
